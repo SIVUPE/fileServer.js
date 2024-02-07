@@ -1,0 +1,57 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Righteous;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background color */
+    position: absolute;
+    right: 37%;
+    top: 26%;
+}
+
+input[type="text"] {
+    width: calc(100% - 150px); /* Set the width of the input field to fill the remaining space */
+    padding: 5px; /* Add some padding */
+    margin: 15%;
+    border: 1px solid #ff9a9a; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+    font-size: xx-large;
+    font-family: Righteous;
+}
+
+button {
+    padding: 8px 15px; /* Increase padding for better appearance */
+    background-color: #f41717; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    margin: 3%;
+    position: absolute;
+    left: 22%;
+    font-size: x-large;
+    font-family: Righteous;
+
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5em;
+    margin-right: 20px; /* Adjust margin as needed */
+    color: #e39999  ;
+}
